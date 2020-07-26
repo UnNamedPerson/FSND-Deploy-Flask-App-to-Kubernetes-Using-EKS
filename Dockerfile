@@ -5,7 +5,6 @@ RUN pip install pyjwt
 RUN pip install flask
 RUN pip install gunicorn
 RUN pip install pytest
-RUN pip install -r requirements.txt
 
 COPY . /app
 RUN make /app
